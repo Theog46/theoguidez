@@ -1,0 +1,502 @@
+h1 span {
+	color : #A5D6A7;
+}
+
+h1 {
+ 	font-weight: normal;
+ 	font-family: Apple Chancery, cursive;
+ 	text-align: center;
+ 	font-size: 40px;
+ }
+
+h2 span {
+	text-decoration: underline;
+	text-decoration-color: #A5D6A7;
+}
+
+h2 {
+	font-weight: normal;
+	font-family: Apple Chancery, cursive;
+	margin-top: -25px;
+	margin-left: -28px;
+}
+ 
+.photo {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	margin-bottom: -175px;
+}
+
+.photomini {
+   width: 230px;
+   clip-path: ellipse(50% 50%);
+    border: 4px #B0BEC5 solid;
+  border-radius: 216px;
+}
+
+.logo_loisir {
+	display: flex;
+	justify-content: space-around;
+	padding: 30px;
+}
+
+.fa-graduation-cap {
+	color: #A5D6A7;
+	padding: 10px;
+	width: 65px;
+
+}
+
+.fa-briefcase {
+	color: #A5D6A7;
+	padding: 10px;
+	width: 65px;
+}
+
+.fa-pencil-alt {
+	color: #A5D6A7;
+	padding: 10px;
+	width: 65px;
+}
+
+.fa-dot-circle {
+	color: #A5D6A7;
+	padding: 10px;
+	font-size: 0.8em;
+}
+
+.fa-circle {
+	color: #A5D6A7;
+	padding: 10px;
+	font-size: 0.6em;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.infos {
+	 display: flex;
+	 flex-direction: column;
+	 background-color: #A5D6A7;
+	 position: absolute;
+	 left: 0px;
+	 top: 0px;
+	 right: 70%;
+	 height: auto;
+	 min-height: 198%;
+}
+
+/* Gestion footer */
+.main_conteneur {
+	margin: 0 auto;
+	width: 80%;
+	margin-top: 90px;
+	margin-bottom: 90px;
+}
+
+.corps {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: absolute;
+	right: 10px;
+	left: 40%;
+}
+
+.contact_title {
+	text-align: center; 
+	margin-top: 200px;
+	font-size: 1.4em;
+	font-family: Arial;
+	background-color: #263238;
+	color: #A5D6A7;
+	line-height: 40px;
+}
+
+#contact {
+	margin: 0px 0px 30px 40px;
+}
+
+#apropos {
+	text-align: center;
+	margin-top: 10%;
+	margin-bottom: 100px;
+	font-size: 1.4em;
+	font-family: Arial;
+	background-color: #263238;
+	color: #A5D6A7;
+	line-height: 40px;
+}
+
+.apropos {
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 330px;
+	margin-top: -65px;
+	text-align: justify;
+}
+
+#loisir {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 1.4em;
+	font-family: Arial;
+	background-color: #263238;
+	color: #A5D6A7;
+	line-height: 40px;
+}
+
+.logo_loisir i {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 50px;
+	border: solid 3px #263238;
+	border-radius: 50%;
+	padding: 15px;
+	color: #263238;
+}
+
+.forma {
+	border-bottom: 2px solid #A5D6A7;
+	font-size: 1.8em;
+}
+
+.forma-deco {
+	font-size: 0.9em;
+}
+
+.experience {
+	border-bottom: 2px solid #A5D6A7;
+	font-size: 1.8em;
+}
+
+.experience-deco {
+	font-size: 0.9em;
+}
+
+.corps-recom{
+	display: flex;
+	margin-bottom: 50px;
+
+}
+
+.recom {
+	border-bottom: 2px solid #A5D6A7;
+	font-size: 1.8em;
+}
+
+.recom2 {
+	margin-left: 200px;
+}
+
+.recom-deco {
+	font-size: 0.9em;
+}
+
+.corps-forma {
+	display: flex;
+}
+
+#dates {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 200px;
+	margin-top: -10px;
+}
+
+#dates1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 200px;
+	margin-top: -10px;
+}
+
+.datebrive {
+	white-space: nowrap;
+}
+
+.datebrive1 {
+	position: relative;
+	left: 37px;
+	top: -5px;
+}
+
+.datevayrac {
+	white-space: nowrap;
+	margin-top: 120px;
+	}
+
+.datevayrac1 {
+	position: relative;
+	left: 35px;
+	top: -5px;
+}
+
+.datechapelle1 {
+	position: relative;
+	left: 35px;
+	top: -5px;
+}
+
+.datebiars {
+	white-space: nowrap;
+	margin-top: 155px;
+}
+
+.datebiars1 {
+	position: relative;
+	left: 35px;
+	top: -5px;
+
+}
+
+.datebetaille {
+	white-space: nowrap;
+	margin-top: 45px;
+}
+
+.datebetaille1 {
+	position: relative;
+	left: 35px;
+	top: -5px;
+
+}
+
+.corps-expe {
+	display: flex;
+}
+
+
+.para1 {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	margin-left: 120px;
+}
+
+.p1-subtitle {
+	margin-top: -5px;
+}
+
+.p1-text, .p1-text1 {
+	margin-top: -5px;
+}
+
+.para2 {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	margin-left: 40px;
+}
+
+.orlean-conteneur {
+	
+	flex-direction: column;
+	margin-left: -40px;
+	right: 0px;
+}
+
+@media (max-width: 1024px) {
+
+	body {
+		overflow-x: hidden;
+	}
+	.infos {
+		 display: flex;
+		 flex-direction: column;
+		 background-color: #A5D6A7;
+		 position: relative;
+		 height: 100%;
+		 width: 129%;
+		 margin-left: -15%;
+	}
+
+	header {
+		position: relative;	
+		margin-top: -14%;
+	}
+
+	#contact {
+		margin: 0px 0px 0px 33%;
+		width: 35%;
+		
+	}
+
+	.contact-responsive {
+		font-size: 1.5em;
+	}
+
+	.span-responsive {
+		color: #263238;
+		font-size: 2em;
+		font-family: Apple Chancery, cursive;
+		display: flex;
+		justify-content: center;
+	}
+
+	.apropos {
+		font-family: Apple Chancery, cursive;
+		font-size: 1.5em;
+	}
+
+	#apropos {
+		margin-top: 1px;
+	}
+
+	#loisir {
+		margin-top: -25%;
+	}
+
+	.forma, .experience, .recom {
+		margin-left: -65%;
+		font-size: 2em;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.datebrive, .datevayrac, .datechapelle, .datebiars, .datebetaille {
+		font-family: Apple Chancery, cursive;
+		font-size: 1.2em;
+	}
+
+
+	.corps-forma, .corps-expe, .corps-recom {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		margin-left: -30%;
+	}
+	
+
+}
+
+@media (max-width: 640px) {
+	header {
+		margin-top: -23%;
+	}
+
+	.forma, .experience, .recom {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+
+	}
+
+	#loisir {
+		margin-top: -40%;
+	}
+
+	.corps-forma {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		margin-left: -40%;
+	}
+
+	.datebrive {
+		margin-left: -30%;
+		margin-top: -10%;
+	}
+
+	.bac {
+		margin-top: -40%;
+		margin-left: 10%;
+	}
+
+	.p1-text {
+		margin-right: 30%;
+		margin-left: -20%;
+	}
+
+	.datevayrac {
+		margin-top: 120%;
+		margin-left: -25%;
+	}
+
+	.brevet {
+		margin-top: 10%;
+		margin-left: 10%	;
+	}	
+
+	.p1-text1 {
+		margin-right: 30%;
+		margin-left: -20%;
+	}
+
+	.datebrive, .datevayrac {
+		font-size: 1.2em;
+	}
+
+	.para1, .para2, .corps-recom {
+		font-size: 1em;
+		font-family: Apple Chancery, cursive;
+	}
+
+	.corps-expe {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		margin-left: -20%;
+	}	
+
+	.datechapelle {
+		margin-left: -20%;
+	}
+
+	.service {
+		margin-top: -30%;
+		margin-left: 10%;
+	}
+
+	.datebiars {
+		margin-top: 90%;
+		margin-left: -20%;
+	}
+
+	.interim {
+		margin-top: 10%;
+	}
+
+	.datebetaille {
+		margin-top: 37%;
+		margin-left: -20%;
+	}
+
+	.job {
+		margin-top: 10%;
+	}
+
+	.p1-usine, .p1-atout {
+		margin-left: -10%;
+		margin-right: 30%;
+	}
+
+	.corps-recom {
+		margin-left: -50%;
+	}
+
+	.recom2 {
+		margin-left: 10%;
+	}
+}
+
+
+
+
