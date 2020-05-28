@@ -1,1 +1,1 @@
-# theoguidez.github.io
+# https://theog46.github.io/theoguidez/
